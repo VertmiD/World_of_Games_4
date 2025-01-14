@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        DOCKER_IMAGE = "your-dockerhub-username/your-repository-name:latest" // Update with your DockerHub username and repository
+        DOCKER_IMAGE = "vertmi/world-of-games:latest" // Update with your DockerHub username and repository
         CONTAINER_NAME = "test-container"
         TEST_FILE = "e2e.py" // Ensure this file exists in your repo
         MOUNT_FILE = "Scores.txt" // Ensure this file exists in your repo
